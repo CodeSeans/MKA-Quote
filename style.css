@@ -1,0 +1,57 @@
+body {
+    background-color: #fff;
+  }
+  
+  .container {
+    width: 85%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .quotes {
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: rgb(0, 0, 0);
+    background-image: url(Atatürk\ gelirken.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid ;
+    border-radius: 12px;
+  }
+
+  .quotes p,
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .quotes p {
+    font-family: "Redressed", cursive;
+  }
+
+  .quotes h3 {
+    font-family: "Roboto Mono", monospace;
+  }
+
+  button {
+    display: block;
+    position: relative;
+    top: -70px;
+    right: 10px;
+    margin: auto;
+    background-color: #000000;
+    color: #e4e7e6;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
