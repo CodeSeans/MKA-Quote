@@ -26,13 +26,14 @@ function Generate() {
       '"The foundation of a democratic society is tolerance and mutual respect"',
   };
 
+    document.getElementById("quote").innerHTML = quote;
+    document.getElementById("author").innerHTML = authorPicker;
 
     let randomAuthors = Object.keys(quotes);
     let authorPicker =
       randomAuthors[Math.floor(Math.random() * randomAuthors.length)];
     let quote = quotes[authorPicker];
-    document.getElementById("quote").innerHTML = quote;
-    document.getElementById("author").innerHTML = authorPicker;
+  
   }
   Generate();
 
